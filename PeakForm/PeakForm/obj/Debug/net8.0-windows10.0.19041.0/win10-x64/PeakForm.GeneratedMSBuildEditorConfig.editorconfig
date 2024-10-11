@@ -8,35 +8,48 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PeakForm
-build_property.ProjectDir = C:\Users\John Kristoffer\Desktop\PeakForm_GitHub\PeakForm\PeakForm\
+build_property.ProjectDir = C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
 
-[C:/Users/John Kristoffer/Desktop/PeakForm_GitHub/PeakForm/PeakForm/App.xaml]
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/About Page 2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.About Page 2.xaml
+build_metadata.AdditionalFiles.TargetPath = About Page 2.xaml
+build_metadata.AdditionalFiles.RelativePath = About Page 2.xaml
+
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/About Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.About Page.xaml
+build_metadata.AdditionalFiles.TargetPath = About Page.xaml
+build_metadata.AdditionalFiles.RelativePath = About Page.xaml
+
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/John Kristoffer/Desktop/PeakForm_GitHub/PeakForm/PeakForm/AppShell.xaml]
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/John Kristoffer/Desktop/PeakForm_GitHub/PeakForm/PeakForm/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
-[C:/Users/John Kristoffer/Desktop/PeakForm_GitHub/PeakForm/PeakForm/Resources/Styles/Colors.xaml]
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/John Kristoffer/Desktop/PeakForm_GitHub/PeakForm/PeakForm/Resources/Styles/Styles.xaml]
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
