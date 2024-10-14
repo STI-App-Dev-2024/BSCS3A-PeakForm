@@ -16,17 +16,17 @@ build_property.ProjectDir = C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-Pe
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/About Page 2.xaml]
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.About Page 2.xaml
-build_metadata.AdditionalFiles.TargetPath = About Page 2.xaml
-build_metadata.AdditionalFiles.RelativePath = About Page 2.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
 
-[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/About Page.xaml]
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/AboutPage2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.About Page.xaml
-build_metadata.AdditionalFiles.TargetPath = About Page.xaml
-build_metadata.AdditionalFiles.RelativePath = About Page.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.AboutPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage2.xaml
 
 [C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
 [C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.Resources.Styles.Colors.xaml
@@ -51,3 +57,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/vened/OneDrive/Documents/PeakForm/BSCS3A-PeakForm/PeakForm/PeakForm/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PeakForm.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SignUpPage.xaml

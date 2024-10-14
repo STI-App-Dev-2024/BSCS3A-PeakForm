@@ -2113,3 +2113,9 @@ C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj
 C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\bg.png
+C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-hdpi\appicon_round.png
+C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-mdpi\appicon_round.png
+C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-xhdpi\appicon_round.png
+C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-xxhdpi\appicon_round.png
+C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
+C:\Users\vened\OneDrive\Documents\PeakForm\BSCS3A-PeakForm\PeakForm\PeakForm\obj\Debug\net8.0-android34.0\android\src\crc6452ffdc5b34af3a0f\MauiLayerDrawable.java

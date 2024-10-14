@@ -25,7 +25,8 @@
                     HeightRequest="50" 
                     WidthRequest="200"
                     HorizontalOptions="Center"
-                    TranslationY="300"/>
+                    TranslationY="300"
+                    Clicked="OnLoginButtonClicked"/>
 
             <Button Text="Sign up" 
                     BackgroundColor="#FF007F" 
@@ -34,7 +35,8 @@
                     HeightRequest="50" 
                     WidthRequest="200"
                     HorizontalOptions="Center"
-                    TranslationY="300"/>
+                    TranslationY="300"
+                    Clicked="OnSignUpButtonClicked"/>
         </StackLayout>
     </Frame>
 

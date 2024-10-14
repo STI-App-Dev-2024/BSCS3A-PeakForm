@@ -5,12 +5,17 @@
              Title="About Page"
              BackgroundColor="#F8E8EF"
              Shell.NavBarIsVisible="False">
-    
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="#F8E8EF"
+
+    <Grid>
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnFrameTapped" />
+        </Grid.GestureRecognizers>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="#F8E8EF"
                  Padding="20">
-        <Image Source="bg.png"
+            <Image Source="bg.png"
                HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-    </StackLayout>
-    
+               VerticalOptions="Center"
+               TranslationY="-50"/>
+        </StackLayout>
+    </Grid>
 </ContentPage>

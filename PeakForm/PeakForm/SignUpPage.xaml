@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PeakForm.SignUpPage"
+             Title="SignUpPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#F9E8E5"
+             Padding="20">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <Label Text="Create Account Now!" 
+                   FontSize="32" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextColor="#AE1C59" />
+
+            <Grid ColumnDefinitions="*, *" RowSpacing="10">
+                <VerticalStackLayout Grid.Column="0" Spacing="5">
+                    <Label Text="First name" 
+                           FontAttributes="Bold" 
+                           TextColor="#AE1C59"/>
+                    <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                        <Entry Placeholder="First name" Margin="10,5" />
+                    </Frame>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="1" Spacing="5">
+                    <Label Text="Last name" 
+                           FontAttributes="Bold" 
+                           TextColor="#AE1C59"/>
+                    <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                        <Entry Placeholder="Last name" Margin="10,5" />
+                    </Frame>
+                </VerticalStackLayout>
+            </Grid>
+
+            <Label Text="Birthdate" 
+                   FontAttributes="Bold" 
+                   TextColor="#AE1C59"/>
+            <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                <Entry Placeholder="Months/Day/Year" Margin="10,5"/>
+            </Frame>
+
+            <Label Text="Username" 
+                   FontAttributes="Bold" 
+                   TextColor="#AE1C59"/>
+            <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                <Entry Placeholder="ex: dragonSlayer" Margin="10,5"/>
+            </Frame>
+
+            <Label Text="Email" 
+                   FontAttributes="Bold" 
+                   TextColor="#AE1C59"/>
+            <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                <Entry Placeholder="Email" Margin="10,5"/>
+            </Frame>
+
+            <Label Text="Password" 
+                   FontAttributes="Bold" 
+                   TextColor="#AE1C59"/>
+            <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                <Entry Placeholder="Password" IsPassword="True" Margin="10,5"/>
+            </Frame>
+
+            <Grid ColumnDefinitions="*, *" RowSpacing="10">
+                <VerticalStackLayout Grid.Column="0" Spacing="5">
+                    <Label Text="Height" 
+                           FontAttributes="Bold" 
+                           TextColor="#AE1C59"/>
+                    <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                        <Entry Placeholder="Height" Margin="10,5" />
+                    </Frame>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="1" Spacing="5">
+                    <Label Text="Weight" 
+                           FontAttributes="Bold" 
+                           TextColor="#AE1C59"/>
+                    <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
+                        <Entry Placeholder="Weight" Margin="10,5" />
+                    </Frame>
+                </VerticalStackLayout>
+            </Grid>
+
+            <Button Text="Next" 
+                    BackgroundColor="#FF3B73" 
+                    TextColor="#FFE84A" 
+                    FontAttributes="Bold" 
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
