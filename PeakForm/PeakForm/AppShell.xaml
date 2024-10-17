@@ -8,8 +8,23 @@
     Title="PeakForm">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="AboutPage"
+        ContentTemplate="{DataTemplate local:AboutPage}"
+        Route="AboutPage"/>
+
+    <ShellContent
+        Title="AboutPage2"
+        ContentTemplate="{DataTemplate local:AboutPage2}"
+        Route="AboutPage2"/>
+
+    <ShellContent
+        Title="LoginPage"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage"/>
+
+    <ShellContent
+        Title="SignUpPage"
+        ContentTemplate="{DataTemplate local:SignUpPage}"
+        Route="SignUpPage"/>
 
 </Shell>
