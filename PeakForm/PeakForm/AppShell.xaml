@@ -27,4 +27,31 @@
         ContentTemplate="{DataTemplate local:SignUpPage}"
         Route="SignUpPage"/>
 
+    <ShellContent
+    Title="ProfilePage"
+    ContentTemplate="{DataTemplate local:ProfilePage}"
+    Route="ProfilePage"/>
+
+    <!--<TabBar>
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
+        </Tab>
+
+        <Tab Title="Rewards" Icon="rewards_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:RewardsPage}" />
+        </Tab>
+
+        <Tab Title="Leaderboard" Icon="leaderboard_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:LeaderboardPage}" />
+        </Tab>
+
+        <Tab Title="Settings" Icon="settings_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+        </Tab>
+
+        <Tab Title="Profile" Icon="profile_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+    </TabBar> -->
+
 </Shell>
