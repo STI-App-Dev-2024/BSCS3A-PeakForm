@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeakForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+20a2705c1756dbfc6b2af33a62702e422a93cc43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b284e22148d813bae284450dc4620e0d4b43371d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeakForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeakForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

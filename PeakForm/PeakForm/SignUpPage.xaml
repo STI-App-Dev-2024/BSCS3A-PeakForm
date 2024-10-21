@@ -22,7 +22,7 @@
                            FontAttributes="Bold" 
                            TextColor="#AE1C59"/>
                     <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
-                        <Entry Placeholder="First name" Margin="10,5" />
+                        <Entry Placeholder="First name" Text="{Binding FirstName}" Margin="10,5" />
                     </Frame>
                 </VerticalStackLayout>
 
@@ -31,37 +31,37 @@
                            FontAttributes="Bold" 
                            TextColor="#AE1C59"/>
                     <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
-                        <Entry Placeholder="Last name" Margin="10,5" />
+                        <Entry Placeholder="Last name" Text="{Binding LastName}" Margin="10,5" />
                     </Frame>
                 </VerticalStackLayout>
             </Grid>
-
+            <!--  -->
             <Label Text="Birthdate" 
                    FontAttributes="Bold" 
                    TextColor="#AE1C59"/>
             <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
-                <Entry Placeholder="Months/Day/Year" Margin="10,5"/>
+                <Entry Placeholder="Months/Day/Year"  Margin="10,5"/>
             </Frame>
-
+            
             <Label Text="Username" 
                    FontAttributes="Bold" 
                    TextColor="#AE1C59"/>
             <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
-                <Entry Placeholder="ex: dragonSlayer" Margin="10,5"/>
+                <Entry Placeholder="ex: dragonSlayer" Text="{Binding UserName}" Margin="10,5"/>
             </Frame>
 
             <Label Text="Email" 
                    FontAttributes="Bold" 
                    TextColor="#AE1C59"/>
             <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
-                <Entry Placeholder="Email" Margin="10,5"/>
+                <Entry Placeholder="Email" Text="{Binding Email}" Margin="10,5"/>
             </Frame>
 
             <Label Text="Password" 
                    FontAttributes="Bold" 
                    TextColor="#AE1C59"/>
             <Frame HasShadow="False" CornerRadius="10" Padding="0" BackgroundColor="#FBF4E9">
-                <Entry Placeholder="Password" IsPassword="True" Margin="10,5"/>
+                <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True" Margin="10,5"/>
             </Frame>
 
             <Grid ColumnDefinitions="*, *" RowSpacing="10">
@@ -90,7 +90,9 @@
                     FontAttributes="Bold" 
                     CornerRadius="20"
                     HeightRequest="50"
-                    HorizontalOptions="Fill" />
+                    HorizontalOptions="Fill" 
+                    GestureRecognizers="{TapGestureRecognizer Command={Binding SignUp}}"
+                    />
 
         </VerticalStackLayout>
     </ScrollView>

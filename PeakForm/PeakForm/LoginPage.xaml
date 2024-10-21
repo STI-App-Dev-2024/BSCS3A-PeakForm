@@ -22,6 +22,7 @@
 
             <Frame CornerRadius="10" HasShadow="False" Padding="0" BackgroundColor="#FFF5E5">
                 <Entry Placeholder="Enter your username"
+                       Text="{Binding Email}"
                        BackgroundColor="Transparent"
                        TextColor="Black"
                        HeightRequest="50" />
@@ -35,6 +36,7 @@
 
             <Frame CornerRadius="10" HasShadow="False" Padding="0" BackgroundColor="#FFF5E5">
                 <Entry Placeholder="Enter your password"
+                       Text="{Binding Password}"
                        IsPassword="True"
                        BackgroundColor="Transparent"
                        TextColor="Black"
@@ -62,7 +64,8 @@
                     TextColor="#FFF48B"
                     CornerRadius="25"
                     HeightRequest="50"
-                    FontAttributes="Bold" />
+                    FontAttributes="Bold"
+                    GestureRecognizers="{TapGestureRecognizer Command={Binding Login}}"/>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Label Text="Don't have an account?" 
