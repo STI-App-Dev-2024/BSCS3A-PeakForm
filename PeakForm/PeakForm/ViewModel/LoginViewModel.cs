@@ -1,6 +1,4 @@
-﻿
-
-using Firebase.Auth;
+﻿using Firebase.Auth;
 using Newtonsoft.Json;
 using PeakForm.Model;
 using System.ComponentModel;
